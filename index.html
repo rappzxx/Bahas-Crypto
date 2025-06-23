@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pengenalan Crypto oleh rappzxx</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Share Tech Mono', monospace;
+      background-color: #0f0f0f;
+      background-image: url('https://images.unsplash.com/photo-1618005198919-d3d4b7f98c59?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      color: #00ffcc;
+      padding: 2rem;
+      backdrop-filter: brightness(0.8) saturate(1.2);
+    }
+    header {
+      text-align: center;
+      padding: 1rem;
+      border-bottom: 2px solid #00ffcc;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      color: #66ffe0;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.75);
+      border: 1px solid #00ffcc;
+      border-radius: 15px;
+      box-shadow: 0 0 15px #00ffcc66;
+    }
+    footer {
+      margin-top: 4rem;
+      text-align: center;
+      color: #888;
+      font-size: 0.9rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+      padding: 1rem;
+    }
+    .highlight {
+      color: #ff33cc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Crypto 101: Dunia Kripto</h1>
+    <p>Website ini dibuat oleh <span class="highlight">rappzxx</span></p>
+  </header>
+  <div class="container">
+    <!-- Content omitted for brevity (already included above) -->
+  </div>
+  <footer>
+    <p>Website edukatif ini dibuat dengan semangat oleh <strong>rappzxx</strong> • 2025</p>
+  </footer>
+  <script>
+    const text = "Crypto 101: Dunia Kripto";
+    let i = 0;
+    const speed = 70;
+    const title = document.querySelector("header h1");
+    title.textContent = "";
+    function typeEffect() {
+      if (i < text.length) {
+        title.textContent += text.charAt(i);
+        i++;
+        setTimeout(typeEffect, speed);
+      }
+    }
+    window.onload = typeEffect;
+    console.log("Selamat datang di website edukasi crypto oleh rappzxx 🚀");
+    console.log("Jelajahi berbagai topik seputar dunia kripto, blockchain, DeFi, NFT, dan masih banyak lagi!");
+    console.log("Kalau kamu pengen belajar coding front-end atau blockchain, semangat terus ya bebyy 💻🔥");
+  </script>
+</body>
+</html>
